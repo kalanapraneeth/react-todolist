@@ -1,16 +1,71 @@
-# React + Vite
+# React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal **Todo List** built with **React** + **Material UI** with `localStorage`.  
+And this is my first repo in GitHub.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+![React](https://img.shields.io/badge/React-61DBFB?logo=react&logoColor=white&style=for-the-badge)
+![Material UI](https://img.shields.io/badge/Material%20UI-007FFF?logo=mui&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new todos
+- Mark tasks as completed
+- Delete todos
+- Saves automatically in **localStorage**
+- Used **Material UI** for interface
+- Developed using **React Hooks** (`useState`, `useEffect`)
+
+---
+
+## Project Structure
+
+src/
+│
+├── App.jsx # Root component
+├── TodoList.jsx # Manages state, CRUD logic, and todo rendering
+├── TodoForm.jsx # Input form for adding todos
+├── TodoItem.jsx # Renders individual todo with checkbox + delete
+└── App.css # Global styles
+
+---
+
+## Installation & Setup
+
+### Clone the repository
+
+```sh
+git clone https://github.com/<your-username>/react-todo-list.git
+```
+
+### Navigate into the folder
+
+```sh
+cd react-todo-list
+```
+
+### Install dependencies
+
+```sh
+npm install
+```
+
+### Start the development server
+
+```sh
+npm run dev
+```
+
+---
+
+## Author
+
+Kalana Praneeth
+[text](https://github.com/kalanapraneeth)
