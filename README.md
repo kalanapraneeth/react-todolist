@@ -72,5 +72,4 @@ npm run dev
 
 ## Author
 
-Kalana Praneeth
-[text](https://github.com/kalanapraneeth)
+[Kalana Praneeth](https://github.com/kalanapraneeth)
