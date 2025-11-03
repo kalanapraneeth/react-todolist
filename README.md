@@ -7,10 +7,20 @@ And this is my first repo in GitHub.
 
 ## Tech Stack
 
-![React](https://img.shields.io/badge/React-61DBFB?logo=react&logoColor=white&style=for-the-badge)
-![Material UI](https://img.shields.io/badge/Material%20UI-007FFF?logo=mui&logoColor=white&style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=for-the-badge)
+<img height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png">
+
+<img height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/material_ui.png">
+
+<img height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png">
+
+<img height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png">
+
+```
+- React
+- Material UI
+- JavaScript
+- Vite
+```
 
 ---
 
@@ -27,13 +37,14 @@ And this is my first repo in GitHub.
 
 ## Project Structure
 
+```
 src/
 │
 ├── App.jsx # Root component
 ├── TodoList.jsx # Manages state, CRUD logic, and todo rendering
 ├── TodoForm.jsx # Input form for adding todos
-├── TodoItem.jsx # Renders individual todo with checkbox + delete
-└── App.css # Global styles
+└── TodoItem.jsx # Renders individual todo with checkbox + delete
+```
 
 ---
 
